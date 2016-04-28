@@ -24,7 +24,7 @@ void setup(){
     Serial.begin(9600);
     SPI.begin();
     rfid.init();
-    servo1.attach(4);
+    servo1.attach(4);//servo motor pin
 }
  
 void loop(){
